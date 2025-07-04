@@ -2,20 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T15:17:46 IST" name="Suite" finished-at="2025-07-03T15:18:01 IST" duration-ms="15239">
+  <suite started-at="2025-07-04T12:11:32 IST" name="Suite" finished-at="2025-07-04T12:12:04 IST" duration-ms="32196">
     <groups>
     </groups>
-    <test started-at="2025-07-03T15:17:46 IST" name="Test" finished-at="2025-07-03T15:18:01 IST" duration-ms="15239">
-      <class name="testCase.TC_001_DisplayNameAndPrice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@6ee6f53]" started-at="2025-07-03T15:17:46 IST" name="setup" finished-at="2025-07-03T15:17:58 IST" duration-ms="12146" status="PASS">
+    <test started-at="2025-07-04T12:11:32 IST" name="DisplayNames" finished-at="2025-07-04T12:12:04 IST" duration-ms="32196">
+      <class name="testBase.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.BaseClass@4b1d6571]" started-at="2025-07-04T12:11:32 IST" name="setup" finished-at="2025-07-04T12:11:45 IST" duration-ms="13057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="metho()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@6ee6f53]" started-at="2025-07-03T15:17:58 IST" name="metho" finished-at="2025-07-03T15:18:01 IST" duration-ms="2963" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.BaseClass@4b1d6571]" started-at="2025-07-04T12:11:58 IST" name="tearDown" finished-at="2025-07-04T12:12:04 IST" duration-ms="5713" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- metho -->
-      </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
-    </test> <!-- Test -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.BaseClass -->
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <test-method signature="validation()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@5d12a356]" started-at="2025-07-04T12:11:45 IST" name="validation" finished-at="2025-07-04T12:11:58 IST" duration-ms="13257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
+    </test> <!-- DisplayNames -->
   </suite> <!-- Suite -->
 </testng-results>

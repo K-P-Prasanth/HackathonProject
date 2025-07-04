@@ -17,6 +17,9 @@ public class HomePage extends BasePage{
 	
 	@FindBy(xpath="//input[@id='js-site-search-input' and @type='search']")
 	WebElement searchBar;
+
+    @FindBy(xpath = "//a[text()='Online Gift Card']")
+    WebElement onlineGiftCardLink;
 	
 	Actions act = new Actions(driver);
 	
@@ -28,4 +31,7 @@ public class HomePage extends BasePage{
 		searchBar.sendKeys("book shelves");
 		act.keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
 	}
+	public void clickOnlineGiftCard() {
+        onlineGiftCardLink.click();
+    }
 }
