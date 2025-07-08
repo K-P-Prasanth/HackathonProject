@@ -21,6 +21,7 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 			hp.closePopUp();
 			logger.info("----- Searching BookShelves -----");
 			hp.searchBookShelves();
+			bsp.mouseHover();
 			logger.info("----- Getting Current URL -----");
 			System.out.println(driver.getCurrentUrl());
 			logger.info("----- Setting Minimum and Maximum Prices -----");
@@ -32,7 +33,7 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 			logger.info("----- Printing top 3 BookShelves -----");
 			bsp.printShelves();
 
-			logger.error("-----TC_001_DisplayNameAndPrice Passed-----");
+			logger.info("-----TC_001_DisplayNameAndPrice Passed-----");
 			Assert.assertTrue(true);
 
 		} catch (Exception e) {
