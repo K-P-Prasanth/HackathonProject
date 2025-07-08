@@ -1,156 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T16:49:43 IST" name="Suite" finished-at="2025-07-08T16:50:56 IST" duration-ms="73064">
+  <suite started-at="2025-07-08T18:03:20 IST" name="Suite" finished-at="2025-07-08T18:04:17 IST" duration-ms="56498">
     <groups>
     </groups>
-    <test started-at="2025-07-08T16:49:43 IST" name="Test1" finished-at="2025-07-08T16:50:15 IST" duration-ms="32413">
-      <class name="testCase.TC_001_DisplayNameAndPrice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@1afdd473]" started-at="2025-07-08T16:49:43 IST" name="setup" finished-at="2025-07-08T16:49:56 IST" duration-ms="12875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="method()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@1afdd473]" started-at="2025-07-08T16:49:56 IST" name="method" finished-at="2025-07-08T16:50:09 IST" duration-ms="13290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@1afdd473]" started-at="2025-07-08T16:50:09 IST" name="tearDown" finished-at="2025-07-08T16:50:15 IST" duration-ms="6135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-07-08T16:50:15 IST" name="Test2" finished-at="2025-07-08T16:50:47 IST" duration-ms="31903">
+    <test started-at="2025-07-08T18:03:20 IST" name="Test1" finished-at="2025-07-08T18:04:17 IST" duration-ms="56498">
       <class name="testCase.TC_002_RetriveSubMenuItems">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@4982cc36]" started-at="2025-07-08T16:50:15 IST" name="setup" finished-at="2025-07-08T16:50:36 IST" duration-ms="21109" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@7776ab]" started-at="2025-07-08T18:03:42 IST" name="setup" finished-at="2025-07-08T18:03:50 IST" duration-ms="7709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="method()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@4982cc36]" started-at="2025-07-08T16:50:36 IST" name="method" finished-at="2025-07-08T16:50:42 IST" duration-ms="5340" status="PASS">
+        <test-method signature="method()[pri:2, instance:testCase.TC_002_RetriveSubMenuItems@7776ab]" started-at="2025-07-08T18:03:50 IST" name="method" finished-at="2025-07-08T18:03:53 IST" duration-ms="3165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@4982cc36]" started-at="2025-07-08T16:50:42 IST" name="tearDown" finished-at="2025-07-08T16:50:47 IST" duration-ms="5445" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@7776ab]" started-at="2025-07-08T18:03:53 IST" name="tearDown" finished-at="2025-07-08T18:03:57 IST" duration-ms="3477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_002_RetriveSubMenuItems -->
-    </test> <!-- Test2 -->
-    <test started-at="2025-07-08T16:50:47 IST" name="Test3" finished-at="2025-07-08T16:50:56 IST" duration-ms="8668">
-      <class name="testCase.TC_003_GiftCardSectionValidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@71529963]" started-at="2025-07-08T16:50:47 IST" name="setup" finished-at="2025-07-08T16:50:56 IST" duration-ms="8639" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [becec88a981bebfcf8dd17eb592da24a, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2408701\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: becec88a981bebfcf8dd17eb592da24a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [becec88a981bebfcf8dd17eb592da24a, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2408701\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: becec88a981bebfcf8dd17eb592da24a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:889)
-at testBase.BaseClass.setup(BaseClass.java:21)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+      <class name="testCase.TC_001_DisplayNameAndPrice">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@40238dd0]" started-at="2025-07-08T18:03:20 IST" name="setup" finished-at="2025-07-08T18:03:29 IST" duration-ms="8241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validation()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@71529963]" started-at="2025-07-08T16:50:56 IST" name="validation" finished-at="2025-07-08T16:50:56 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method signature="method()[pri:1, instance:testCase.TC_001_DisplayNameAndPrice@40238dd0]" started-at="2025-07-08T18:03:29 IST" name="method" finished-at="2025-07-08T18:03:37 IST" duration-ms="8392" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [becec88a981bebfcf8dd17eb592da24a, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2408701\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: becec88a981bebfcf8dd17eb592da24a]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=137.0.7151.69)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [becec88a981bebfcf8dd17eb592da24a, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2408701\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: becec88a981bebfcf8dd17eb592da24a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:889)
-at testBase.BaseClass.setup(BaseClass.java:21)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCase.TC_001_DisplayNameAndPrice.method(TC_001_DisplayNameAndPrice.java:43)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -169,15 +63,29 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@40238dd0]" started-at="2025-07-08T18:03:37 IST" name="tearDown" finished-at="2025-07-08T18:03:42 IST" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@79179359]" started-at="2025-07-08T18:03:57 IST" name="setup" finished-at="2025-07-08T18:04:04 IST" duration-ms="6876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validation()[pri:3, instance:testCase.TC_003_GiftCardSectionValidation@79179359]" started-at="2025-07-08T18:04:04 IST" name="validation" finished-at="2025-07-08T18:04:13 IST" duration-ms="9352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@71529963]" started-at="2025-07-08T16:50:56 IST" name="tearDown" finished-at="2025-07-08T16:50:56 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@79179359]" started-at="2025-07-08T18:04:13 IST" name="tearDown" finished-at="2025-07-08T18:04:17 IST" duration-ms="3807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
-    </test> <!-- Test3 -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -11,7 +11,7 @@ import pageObjects.HomeAccessoriesPage;
 
 public class TC_002_RetriveSubMenuItems extends BaseClass
 {
-	@Test
+	@Test(priority=2)
 	public void method()
 	{
 		try {

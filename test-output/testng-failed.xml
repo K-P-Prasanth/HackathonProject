@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test3(failed)">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testCase.TC_003_GiftCardSectionValidation">
+      <class name="testCase.TC_001_DisplayNameAndPrice">
         <methods>
-          <include name="validation"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="method"/>
         </methods>
-      </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
+      </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

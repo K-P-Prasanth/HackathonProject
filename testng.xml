@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
 
 	<test thread-count="5" name="Test1">
 		<classes>
 			<class name="testBase.BaseClass" />
 			<class name="testCase.TC_001_DisplayNameAndPrice" />
-		</classes>
-	</test> <!--
-	Test -->
-	
-	<test thread-count="5" name="Test2">
-		<classes>
-			<class name="testBase.BaseClass" />
 			<class name="testCase.TC_002_RetriveSubMenuItems" />
-		</classes>
-	</test> <!--
-	Test -->
-	
-	<test thread-count="5" name="Test3">
-		<classes>
-			<class name="testBase.BaseClass" />
 			<class name="testCase.TC_003_GiftCardSectionValidation" />
 		</classes>
 	</test> <!--
 	Test -->
-	
-	
+
 </suite> <!--
 Suite -->

@@ -10,7 +10,7 @@ import pageObjects.BookShelvesPage;
 
 public class TC_001_DisplayNameAndPrice extends BaseClass{
 	
-	@Test
+	@Test(priority=1)
 	public void method() throws InterruptedException, IOException 
 	{
 		try {

@@ -10,7 +10,7 @@ import testBase.BaseClass;
 
 public class TC_003_GiftCardSectionValidation extends BaseClass {
 
-    @Test
+    @Test(priority=3)
     public void validation()  {
         
 
