@@ -21,6 +21,7 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 			hp.closePopUp();
 			logger.info("----- Searching BookShelves -----");
 			hp.searchBookShelves();
+			bsp.mouseHover();
 			logger.info("----- Getting Current URL -----");
 			System.out.println(driver.getCurrentUrl());
 			logger.info("----- Setting Minimum and Maximum Prices -----");

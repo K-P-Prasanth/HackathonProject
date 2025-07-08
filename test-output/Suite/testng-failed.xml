@@ -12,4 +12,26 @@
       </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="testCase.TC_002_RetriveSubMenuItems">
+        <methods>
+          <include name="method"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.TC_002_RetriveSubMenuItems -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <methods>
+          <include name="validation"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->
