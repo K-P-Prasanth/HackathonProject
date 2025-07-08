@@ -3,13 +3,23 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testCase.TC_001_DisplayNameAndPrice">
         <methods>
+=======
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <methods>
+          <include name="validation"/>
+>>>>>>> master
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="method"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
+=======
+      </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
+>>>>>>> master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

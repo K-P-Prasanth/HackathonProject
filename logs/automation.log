@@ -1,0 +1,92 @@
+2025-07-08 02:49:31 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\2408634\eclipse-workspace\HackathonProject\testng.xml"
+2025-07-08 02:49:31 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2408634\eclipse-workspace\HackathonProject\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-07-08 02:49:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2408634\eclipse-workspace\HackathonProject\testng.xml
+
+2025-07-08 02:49:43 INFO  BaseClass:17 - -----Starting TC_001_DisplayNameAndPrice-----
+2025-07-08 02:49:43 INFO  BaseClass:20 - ----- CLosing PoP-Ups -----
+2025-07-08 02:49:44 INFO  BaseClass:22 - ----- Searching BookShelves -----
+2025-07-08 02:49:45 INFO  BaseClass:24 - ----- Getting Current URL -----
+2025-07-08 02:49:45 INFO  BaseClass:26 - ----- Setting Minimum and Maximum Prices -----
+2025-07-08 02:49:53 INFO  BaseClass:29 - ----- Selecting Open type BookShelves -----
+2025-07-08 02:50:04 INFO  BaseClass:32 - ----- Printing top 3 BookShelves -----
+2025-07-08 02:50:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:05 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:05 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:06 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:06 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:06 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:06 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-08 02:50:06 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-08 02:50:06 DEBUG ZipPackage:673 - Save content types part
+2025-07-08 02:50:06 DEBUG ZipPackage:680 - Save package relationships
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/app.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'docProps/core.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/sharedStrings.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/styles.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/theme/theme1.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/workbook.xml'
+2025-07-08 02:50:06 DEBUG ZipPackage:697 - Save part 'xl/worksheets/sheet1.xml'
+2025-07-08 02:50:06 ERROR BaseClass:35 - -----TC_001_DisplayNameAndPrice Passed-----
+2025-07-08 02:50:21 INFO  BaseClass:20 - ----- Closing PopUp -----
+2025-07-08 02:50:23 INFO  BaseClass:22 - ----- Clicking Home Accessories -----
+2025-07-08 02:50:24 INFO  BaseClass:24 - ----- Getting Items from Home Accessories Section -----
+2025-07-08 02:50:29 INFO  BaseClass:26 - ----- Listing Items From Home Accessories Section -----
+2025-07-08 02:50:29 INFO  BaseClass:32 - -----TC_002_RetriveSubMenuItems Passed-----
+2025-07-08 02:50:43 INFO  BaseClass:24 - ----- Closing PopUp -----
+2025-07-08 02:50:45 INFO  BaseClass:26 - ----- Clicking the Gift Card Section -----
+2025-07-08 02:50:55 INFO  BaseClass:32 - ----- Scrolling to required element -----
+2025-07-08 02:50:55 INFO  BaseClass:35 - ----- Selecting the delivery mode -----
+2025-07-08 02:50:55 INFO  BaseClass:38 - ----- Entering the details on Gift Card -----
+2025-07-08 02:50:56 INFO  BaseClass:43 - ----- Retrieving the Error message -----
+2025-07-08 02:50:56 INFO  BaseClass:45 - ----- Printing the Error message -----
+2025-07-08 02:50:56 INFO  BaseClass:48 - -----TC_003_GiftCardSectionValidation Passed-----

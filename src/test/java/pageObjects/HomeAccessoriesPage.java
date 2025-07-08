@@ -1,6 +1,6 @@
 package pageObjects;
 
-import java.time.Duration;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomeAccessoriesPage extends BasePage
 {
@@ -17,7 +16,7 @@ public class HomeAccessoriesPage extends BasePage
 		super(driver);
 	}
 	
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(25));
+	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(25));
 	
 	@FindBy(className = "slick-list") WebElement slickList;
 	@FindBy(id = "l1-image-div") List<WebElement> itemElements;

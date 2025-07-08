@@ -5,7 +5,6 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -22,7 +21,7 @@ public class BookShelvesPage extends BasePage
 		super(driver);
 	}
 	
-	JavascriptExecutor js = (JavascriptExecutor) driver;
+	//JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	@FindBy(xpath="//input[@id='js-site-search-input']")
 	WebElement hover;
@@ -49,11 +48,10 @@ public class BookShelvesPage extends BasePage
 	List<WebElement> shelves; 
 	
 	
-	FluentWait<WebDriver> wait;
+	
 	public void mouseHover() 
 	{
-		Actions act=new Actions(driver);
-		wait=new FluentWait<>(driver).
+		fluentWait=new FluentWait<>(driver).
 				withTimeout(Duration.ofSeconds(10)).
 				pollingEvery(Duration.ofSeconds(1)).
 				ignoring(Exception.class);
@@ -71,7 +69,7 @@ public class BookShelvesPage extends BasePage
 	{
 		maximum.clear();
 		maximum.sendKeys(val);
-		wait=new FluentWait<>(driver).
+		fluentWait=new FluentWait<>(driver).
 				withTimeout(Duration.ofSeconds(10)).
 				pollingEvery(Duration.ofSeconds(1)).
 				ignoring(Exception.class);
@@ -81,7 +79,7 @@ public class BookShelvesPage extends BasePage
 	public void selectType() throws InterruptedException
 	{
 		js.executeScript("arguments[0].scrollIntoView();",typeEle);
-		wait=new FluentWait<>(driver).
+		fluentWait=new FluentWait<>(driver).
 				withTimeout(Duration.ofSeconds(10)).
 				pollingEvery(Duration.ofSeconds(1)).
 				ignoring(Exception.class);
@@ -90,7 +88,7 @@ public class BookShelvesPage extends BasePage
 	
 	public void selectOpen() throws InterruptedException
 	{
-		wait=new FluentWait<>(driver).
+		fluentWait=new FluentWait<>(driver).
 				withTimeout(Duration.ofSeconds(10)).
 				pollingEvery(Duration.ofSeconds(1)).
 				ignoring(Exception.class);
