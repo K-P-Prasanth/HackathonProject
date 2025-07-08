@@ -17,15 +17,14 @@ public WebDriver driver;
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 		driver.get("https://www.homecentre.in/in/en/");
 		driver.manage().window().maximize();
 	}
 	
-//	@AfterClass
-//	public void tearDown()
-//	{
-//		driver.close();
-//	}
+	@AfterClass
+	public void tearDown()
+	{
+		driver.quit();
+	}
     
 }

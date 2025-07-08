@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 /pageObjects/
 /testBase/
 /testCase/
+=======
+/testBase/
+/pageObjects/
+/testCase/
+/utils/
+/utilities/
+>>>>>>> kishore
