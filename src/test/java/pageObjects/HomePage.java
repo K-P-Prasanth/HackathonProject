@@ -28,6 +28,9 @@ public class HomePage extends BasePage
 	
 	@FindBy(xpath="//input[@id='js-site-search-input' and @type='search']")
 	WebElement searchBar;
+
+    @FindBy(xpath = "//a[text()='Online Gift Card']")
+    WebElement onlineGiftCardLink;
 	
 	@FindBy(xpath ="//div[@id='footer-menu-wrapper']//a[text()='Home Accessories']")
 	//@FindBy(xpath = "//a[contains(@href, 'decor-homeaccessories')]")
@@ -50,5 +53,8 @@ public class HomePage extends BasePage
         wait.until(ExpectedConditions.visibilityOf(homeacces));
         js.executeScript("arguments[0].scrollIntoView(true);", homeacces);
         js.executeScript("arguments[0].click();", homeacces);
+	}
+	public void clickOnlineGiftCard() {
+        onlineGiftCardLink.click();
     }
 }
