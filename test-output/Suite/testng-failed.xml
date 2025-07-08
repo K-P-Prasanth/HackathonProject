@@ -5,8 +5,12 @@
     <classes>
       <class name="testCase.TC_002_RetriveSubMenuItems">
         <methods>
+<<<<<<< HEAD
           <include name="method"/>
+=======
+>>>>>>> kishore
           <include name="setup"/>
+          <include name="method"/>
         </methods>
       </class> <!-- testCase.TC_002_RetriveSubMenuItems -->
     </classes>
