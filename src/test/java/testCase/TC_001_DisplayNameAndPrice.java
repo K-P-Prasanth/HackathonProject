@@ -16,6 +16,7 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 		BookShelvesPage bsp=new BookShelvesPage(driver);
 		hp.closePopUp();
 		hp.searchBookShelves();
+		bsp.mouseHover();
 		System.out.println(driver.getCurrentUrl());
 		bsp.setMinimum("0");
 		bsp.setMaximum("15000");
