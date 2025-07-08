@@ -25,5 +25,6 @@ public class TC_002_RetriveSubMenuItems extends BaseClass
         for (String name : items) 
         System.out.println(name);
 	}
-	
+		
+
 }
