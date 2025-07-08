@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-07-08T09:59:21 IST" name="Suite" finished-at="2025-07-08T10:00:22 IST" duration-ms="60810">
+  <suite started-at="2025-07-08T02:49:32 GMT-07:00" name="Suite" finished-at="2025-07-08T02:51:02 GMT-07:00" duration-ms="90215">
     <groups>
     </groups>
-    <test started-at="2025-07-08T09:59:21 IST" name="Test1" finished-at="2025-07-08T10:00:03 IST" duration-ms="41509">
+    <test started-at="2025-07-08T02:49:32 GMT-07:00" name="Test1" finished-at="2025-07-08T02:50:12 GMT-07:00" duration-ms="40573">
       <class name="testCase.TC_001_DisplayNameAndPrice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@134d26af]" started-at="2025-07-08T09:59:21 IST" name="setup" finished-at="2025-07-08T09:59:32 IST" duration-ms="11091" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@2f1de2d6]" started-at="2025-07-08T02:49:32 GMT-07:00" name="setup" finished-at="2025-07-08T02:49:42 GMT-07:00" duration-ms="10647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="method()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@134d26af]" started-at="2025-07-08T09:59:32 IST" name="method" finished-at="2025-07-08T09:59:56 IST" duration-ms="23994" status="PASS">
+        <test-method signature="method()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@2f1de2d6]" started-at="2025-07-08T02:49:42 GMT-07:00" name="method" finished-at="2025-07-08T02:50:06 GMT-07:00" duration-ms="23687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@134d26af]" started-at="2025-07-08T09:59:56 IST" name="tearDown" finished-at="2025-07-08T10:00:03 IST" duration-ms="6318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_DisplayNameAndPrice@2f1de2d6]" started-at="2025-07-08T02:50:06 GMT-07:00" name="tearDown" finished-at="2025-07-08T02:50:12 GMT-07:00" duration-ms="6102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
     </test> <!-- Test1 -->
-    <test started-at="2025-07-08T10:00:03 IST" name="Test2" finished-at="2025-07-08T10:00:22 IST" duration-ms="19259">
+    <test started-at="2025-07-08T02:50:12 GMT-07:00" name="Test2" finished-at="2025-07-08T02:50:34 GMT-07:00" duration-ms="21801">
       <class name="testCase.TC_002_RetriveSubMenuItems">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@e8df99a]" started-at="2025-07-08T10:00:03 IST" name="setup" finished-at="2025-07-08T10:00:12 IST" duration-ms="9601" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@22295ec4]" started-at="2025-07-08T02:50:12 GMT-07:00" name="setup" finished-at="2025-07-08T02:50:21 GMT-07:00" duration-ms="8482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="method()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@e8df99a]" started-at="2025-07-08T10:00:12 IST" name="method" finished-at="2025-07-08T10:00:17 IST" duration-ms="4946" status="PASS">
+        <test-method signature="method()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@22295ec4]" started-at="2025-07-08T02:50:21 GMT-07:00" name="method" finished-at="2025-07-08T02:50:29 GMT-07:00" duration-ms="8582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@e8df99a]" started-at="2025-07-08T10:00:17 IST" name="tearDown" finished-at="2025-07-08T10:00:22 IST" duration-ms="4704" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_RetriveSubMenuItems@22295ec4]" started-at="2025-07-08T02:50:29 GMT-07:00" name="tearDown" finished-at="2025-07-08T02:50:34 GMT-07:00" duration-ms="4732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_002_RetriveSubMenuItems -->
     </test> <!-- Test2 -->
-=======
-  <suite started-at="2025-07-04T12:11:32 IST" name="Suite" finished-at="2025-07-04T12:12:04 IST" duration-ms="32196">
-    <groups>
-    </groups>
-    <test started-at="2025-07-04T12:11:32 IST" name="DisplayNames" finished-at="2025-07-04T12:12:04 IST" duration-ms="32196">
-      <class name="testBase.BaseClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.BaseClass@4b1d6571]" started-at="2025-07-04T12:11:32 IST" name="setup" finished-at="2025-07-04T12:11:45 IST" duration-ms="13057" status="PASS">
+    <test started-at="2025-07-08T02:50:34 GMT-07:00" name="Test3" finished-at="2025-07-08T02:51:02 GMT-07:00" duration-ms="27779">
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@70f59913]" started-at="2025-07-08T02:50:34 GMT-07:00" name="setup" finished-at="2025-07-08T02:50:43 GMT-07:00" duration-ms="8695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.BaseClass@4b1d6571]" started-at="2025-07-04T12:11:58 IST" name="tearDown" finished-at="2025-07-04T12:12:04 IST" duration-ms="5713" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testBase.BaseClass -->
-      <class name="testCase.TC_003_GiftCardSectionValidation">
-        <test-method signature="validation()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@5d12a356]" started-at="2025-07-04T12:11:45 IST" name="validation" finished-at="2025-07-04T12:11:58 IST" duration-ms="13257" status="PASS">
+        <test-method signature="validation()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@70f59913]" started-at="2025-07-08T02:50:43 GMT-07:00" name="validation" finished-at="2025-07-08T02:50:56 GMT-07:00" duration-ms="13508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_003_GiftCardSectionValidation@70f59913]" started-at="2025-07-08T02:50:56 GMT-07:00" name="tearDown" finished-at="2025-07-08T02:51:02 GMT-07:00" duration-ms="5568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
-    </test> <!-- DisplayNames -->
->>>>>>> chaitanya
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

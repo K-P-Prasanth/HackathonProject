@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,7 +17,7 @@ public class BookShelvesPage extends BasePage
 		super(driver);
 	}
 	
-	JavascriptExecutor js = (JavascriptExecutor) driver;
+	//JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	@FindBy(xpath="//input[@aria-label='minimum-input']")
 	WebElement minimum;
