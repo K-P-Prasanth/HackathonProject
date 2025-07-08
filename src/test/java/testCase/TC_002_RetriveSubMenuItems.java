@@ -32,8 +32,8 @@ public class TC_002_RetriveSubMenuItems extends BaseClass
 
 			logger.info("-----TC_002_RetriveSubMenuItems Passed-----");
 			Assert.assertTrue(true);
-        
-		}catch(Exception e) {
+
+		} catch (Exception e) {
 			logger.error("-----TC_002_RetriveSubMenuItems Failed-----");
 			logger.debug("----- Debug Logs -----");
 			Assert.fail();
