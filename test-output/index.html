@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2408655\eclipse-workspace\HackathonProject\testng.xml</span>
+                    <span>C:\Users\2408395\OneDrive - Cognizant\Desktop\Final_Project\HackathonProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_DisplayNameAndPrice" class="method navigator-link" hash-for-method="method">method</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,12 +103,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_002_RetriveSubMenuItems" class="method navigator-link" hash-for-method="method">method</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_001_DisplayNameAndPrice" class="method navigator-link" hash-for-method="DisplayNameAndPrice">DisplayNameAndPrice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_GiftCardSectionValidation" class="method navigator-link" hash-for-method="validation">validation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_003_GiftCardSectionValidation" class="method navigator-link" hash-for-method="GiftCardSectionValidation">GiftCardSectionValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_002_RetriveSubMenuItems" class="method navigator-link" hash-for-method="RetriveSubMenuItems">RetriveSubMenuItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,26 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCase.TC_001_DisplayNameAndPrice</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method">
-                  </a> <!-- method -->
-                  <span class="method-name">method</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCase.TC_001_DisplayNameAndPrice.method(TC_001_DisplayNameAndPrice.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -165,9 +136,24 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="method">
-                  </a> <!-- method -->
-                  <span class="method-name">method</span>
+                  <a name="RetriveSubMenuItems">
+                  </a> <!-- RetriveSubMenuItems -->
+                  <span class="method-name">RetriveSubMenuItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.TC_001_DisplayNameAndPrice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DisplayNameAndPrice">
+                  </a> <!-- DisplayNameAndPrice -->
+                  <span class="method-name">DisplayNameAndPrice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,9 +166,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validation">
-                  </a> <!-- validation -->
-                  <span class="method-name">validation</span>
+                  <a name="GiftCardSectionValidation">
+                  </a> <!-- GiftCardSectionValidation -->
+                  <span class="method-name">GiftCardSectionValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,7 +176,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2408655\eclipse-workspace\HackathonProject\testng.xml</span>
+            <span class="header-content">C:\Users\2408395\OneDrive - Cognizant\Desktop\Final_Project\HackathonProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -247,22 +233,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validation')
+data.setCell(0, 1, 'GiftCardSectionValidation')
 data.setCell(0, 2, 'testCase.TC_003_GiftCardSectionValidation')
-data.setCell(0, 3, 9352);
+data.setCell(0, 3, 16181);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'method')
+data.setCell(1, 1, 'DisplayNameAndPrice')
 data.setCell(1, 2, 'testCase.TC_001_DisplayNameAndPrice')
-data.setCell(1, 3, 8392);
+data.setCell(1, 3, 12404);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'method')
+data.setCell(2, 1, 'RetriveSubMenuItems')
 data.setCell(2, 2, 'testCase.TC_002_RetriveSubMenuItems')
-data.setCell(2, 3, 3165);
+data.setCell(2, 3, 7875);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -294,44 +280,42 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">method</span>
-                <span class="method-start">8273 ms</span>
+                <span class="method-name">DisplayNameAndPrice</span>
+                <span class="method-start">65139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16916 ms</span>
+                <span class="method-start">77577 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.TC_002_RetriveSubMenuItems</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">21894 ms</span>
+                <span class="method-start">89207 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">method</span>
-                <span class="method-start">29605 ms</span>
+                <span class="method-name">RetriveSubMenuItems</span>
+                <span class="method-start">104736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32772 ms</span>
+                <span class="method-start">112615 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase.TC_003_GiftCardSectionValidation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">36249 ms</span>
+                <span class="method-start">119831 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">validation</span>
-                <span class="method-start">43132 ms</span>
+                <span class="method-name">GiftCardSectionValidation</span>
+                <span class="method-start">138096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52485 ms</span>
+                <span class="method-start">154281 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

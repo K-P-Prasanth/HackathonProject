@@ -11,9 +11,8 @@ import testBase.BaseClass;
 public class TC_003_GiftCardSectionValidation extends BaseClass {
 
     @Test(priority=3)
-    public void validation()  {
-        
-
+    public void GiftCardSectionValidation()  
+    {
 		try {
 			logger.info("-----Starting TC_003_GiftCardSectionValidation-----");
 			// Initialize page objects
@@ -39,10 +38,8 @@ public class TC_003_GiftCardSectionValidation extends BaseClass {
 			gif.giftCardEmail("1233gmail"); // Invalid email
 			gif.giftCardMessage("Happy Birthday");
 
-			logger.info("----- Retrieving the Error message -----");
-			String errorText = gif.getEmailErrorMessage();
 			logger.info("----- Printing the Error message -----");
-			System.out.println("Error message: " + errorText);
+			gif.PrintEmailErrorMessage();
 
 			logger.info("-----TC_003_GiftCardSectionValidation Passed-----");
 			Assert.assertTrue(true);

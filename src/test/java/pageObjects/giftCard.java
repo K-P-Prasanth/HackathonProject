@@ -1,13 +1,16 @@
 package pageObjects;
 
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import utilities.AddingDataToExcel;
+
 public class giftCard extends BasePage {
-	 //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	public giftCard(WebDriver driver) {
 		super(driver);
 	}
@@ -52,8 +55,11 @@ public class giftCard extends BasePage {
         messageField.sendKeys(message);
     }
 
-    public String getEmailErrorMessage() {
-        return emailErrorMessage.getText();
+    public void PrintEmailErrorMessage() throws IOException 
+    {
+    	String errorMsg=emailErrorMessage.getText();
+        System.out.println(errorMsg);
+        AddingDataToExcel.writeToExcel(2,1,0,errorMsg);
     }
 
 	

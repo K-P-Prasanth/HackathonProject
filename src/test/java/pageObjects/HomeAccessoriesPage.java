@@ -1,9 +1,10 @@
 package pageObjects;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
+import utilities.AddingDataToExcel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,18 +20,26 @@ public class HomeAccessoriesPage extends BasePage
 	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(25));
 	
 	@FindBy(className = "slick-list") WebElement slickList;
-	@FindBy(id = "l1-image-div") List<WebElement> itemElements;
+	@FindBy(xpath="//div[contains(@class, 'slick-slide slick-active')]") List<WebElement> itemElements;
+	List<String> itemNames = new ArrayList<>();
 	
-	public List<String> getHomeAccessoriesItems() 
+	public void getHomeAccessoriesItems()
 	{
 		wait.until(ExpectedConditions.visibilityOf(slickList));
-	    List<String> itemNames = new ArrayList<>();
-	    for (WebElement item : itemElements) 
+	    for (WebElement item: itemElements) 
 	    {
 	    	itemNames.add(item.getText());
 	    }
-	    return itemNames;
 	 }
 	
+	public void printHomeAccessoriesItems() throws IOException
+	{
+		System.out.println("Home Accessories Sub-Menu Items:");
+		for(int i=0;i<itemNames.size();i++)
+		{
+			System.out.println(itemNames.get(i));
+			AddingDataToExcel.writeToExcel(1,i+1,0,itemNames.get(i));
+		}
+	}
 	
 }
