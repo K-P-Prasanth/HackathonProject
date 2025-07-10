@@ -7,12 +7,10 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.FluentWait;
 
 import utilities.AddingDataToExcel;
-
 
 public class BookShelvesPage extends BasePage
 {
@@ -20,8 +18,6 @@ public class BookShelvesPage extends BasePage
 	{
 		super(driver);
 	}
-	
-	//JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	@FindBy(xpath="//input[@id='js-site-search-input']")
 	WebElement hover;
@@ -107,10 +103,10 @@ public class BookShelvesPage extends BasePage
 			WebElement Price=driver.findElement(By.xpath(Price_full_xpath));
 			String title=Title.getText();
 			System.out.print(title+"   ");
-			AddingDataToExcel.writeToExcel(i,0,title);
+			AddingDataToExcel.writeToExcel(0,i,0,title);
 			String price=Price.getText();
 			System.out.println(price);
-			AddingDataToExcel.writeToExcel(i,1,price);
+			AddingDataToExcel.writeToExcel(0,i,1,price);
 		}
 	}
 	

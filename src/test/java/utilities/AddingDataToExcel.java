@@ -16,11 +16,11 @@ public class AddingDataToExcel
 	public static XSSFWorkbook workbook;
 	public static XSSFSheet worksheet;
 	
-	public static void writeToExcel(int rowIndex, int clmIndex,String result) throws IOException 
+	public static void writeToExcel(int sheet,int rowIndex, int clmIndex,String result) throws IOException 
     {
 		fi=new FileInputStream(xlfile);
 		workbook=new XSSFWorkbook(fi);
-		worksheet=workbook.getSheetAt(0);
+		worksheet=workbook.getSheetAt(sheet);
         XSSFRow row = worksheet.getRow(rowIndex); // Get row at specified index
         if (row == null)
         row = worksheet.createRow(rowIndex); // Create row if it doesn't exist

@@ -1,7 +1,5 @@
 package testCase;
 
-import java.io.IOException;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -11,7 +9,7 @@ import pageObjects.BookShelvesPage;
 public class TC_001_DisplayNameAndPrice extends BaseClass{
 	
 	@Test(priority=1)
-	public void method() throws InterruptedException, IOException 
+	public void DisplayNameAndPrice()
 	{
 		try {
 			logger.info("-----Starting TC_001_DisplayNameAndPrice-----");
@@ -22,8 +20,6 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 			logger.info("----- Searching BookShelves -----");
 			hp.searchBookShelves();
 			bsp.mouseHover();
-			logger.info("----- Getting Current URL -----");
-			System.out.println(driver.getCurrentUrl());
 			logger.info("----- Setting Minimum and Maximum Prices -----");
 			bsp.setMinimum("0");
 			bsp.setMaximum("15000");

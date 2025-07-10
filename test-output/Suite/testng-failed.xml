@@ -6,11 +6,25 @@
   </listeners>
   <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="testCase.TC_001_DisplayNameAndPrice">
+      <class name="testCase.TC_002_RetriveSubMenuItems">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="method"/>
+          <include name="RetriveSubMenuItems"/>
+        </methods>
+      </class> <!-- testCase.TC_002_RetriveSubMenuItems -->
+      <class name="testCase.TC_003_GiftCardSectionValidation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GiftCardSectionValidation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.TC_003_GiftCardSectionValidation -->
+      <class name="testCase.TC_001_DisplayNameAndPrice">
+        <methods>
+          <include name="tearDown"/>
+          <include name="DisplayNameAndPrice"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testCase.TC_001_DisplayNameAndPrice -->
     </classes>

@@ -13,11 +13,6 @@ public class HomePage extends BasePage
 		super(driver);
 	}
 	
-	//Actions act = new Actions(driver);
-	
-	//JavascriptExecutor js=(JavascriptExecutor) driver;
-	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(25));
-	
 	@FindBy(id="moe-dontallow_button") 
 	WebElement popup;
 	
@@ -28,7 +23,6 @@ public class HomePage extends BasePage
     WebElement onlineGiftCardLink;
 	
 	@FindBy(xpath ="//div[@id='footer-menu-wrapper']//a[text()='Home Accessories']")
-	//@FindBy(xpath = "//a[contains(@href, 'decor-homeaccessories')]")
 	WebElement homeacces;
 	
 	
