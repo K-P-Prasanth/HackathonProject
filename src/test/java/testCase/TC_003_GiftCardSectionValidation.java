@@ -1,6 +1,5 @@
 package testCase;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -26,9 +25,8 @@ public class TC_003_GiftCardSectionValidation extends BaseClass {
 
 			gif.clickNoThanks();
 
-			JavascriptExecutor js = (JavascriptExecutor) driver;
 			logger.info("----- Scrolling to required element -----");
-			js.executeScript("window.scrollBy(0, 500);");
+			gif.scrollView();
 
 			logger.info("----- Selecting the delivery mode -----");
 			gif.selectEmailDeliveryMode();

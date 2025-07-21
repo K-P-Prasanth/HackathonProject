@@ -17,8 +17,6 @@ public class HomeAccessoriesPage extends BasePage
 		super(driver);
 	}
 	
-	//WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(25));
-	
 	@FindBy(className = "slick-list") WebElement slickList;
 	@FindBy(xpath="//div[contains(@class, 'slick-slide slick-active')]") List<WebElement> itemElements;
 	List<String> itemNames = new ArrayList<>();

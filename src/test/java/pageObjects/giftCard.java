@@ -36,6 +36,11 @@ public class giftCard extends BasePage {
     public void clickNoThanks() {
         wait.until(ExpectedConditions.elementToBeClickable(noThanksButton)).click();
     }
+    
+    public void scrollView() {
+    	js.executeScript("window.scrollBy(0, 500);");
+    }
+    
 
     public void selectEmailDeliveryMode() {
     	wait.until(ExpectedConditions.elementToBeClickable(deliveryModeEmail)).click();
@@ -58,6 +63,7 @@ public class giftCard extends BasePage {
     public void PrintEmailErrorMessage() throws IOException 
     {
     	String errorMsg=emailErrorMessage.getText();
+    	System.out.println("Error Message :");
         System.out.println(errorMsg);
         AddingDataToExcel.writeToExcel(2,1,0,errorMsg);
     }
