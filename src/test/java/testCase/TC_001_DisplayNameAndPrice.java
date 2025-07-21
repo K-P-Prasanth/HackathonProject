@@ -22,7 +22,7 @@ public class TC_001_DisplayNameAndPrice extends BaseClass{
 			bsp.mouseHover();
 			logger.info("----- Setting Minimum and Maximum Prices -----");
 			bsp.setMinimum("0");
-			bsp.setMaximum("15000");
+			bsp.setMaximum("15000 ");
 			logger.info("----- Selecting Open type BookShelves -----");
 			bsp.selectType();
 			bsp.selectOpen();
